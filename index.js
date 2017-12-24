@@ -70,7 +70,7 @@ for (var i = 0; i < cart.length; i++) {
 }
 
 function placeOrder(cardNumber) {
-if (cardNumber = NaN) {
+if (isNaN(cardNumber) = ) {
   console.log("Sorry, we don't have a credit card on file for you.")
 }
 }
