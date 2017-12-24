@@ -70,5 +70,7 @@ for (var i = 0; i < cart.length; i++) {
 }
 
 function placeOrder(cardNumber) {
-
+if (cardNumber = null) {
+  
+}
 }
